@@ -92,18 +92,11 @@ public class SeleniumOperations {
 		
 		driver.get("https://www.google.com");
 		
-		/*
-		 * Set window size manually to 640x480 and wait 2 second.
-		 * Hint: Explore Selenium window functions to select one which allows to pass window size in WxH.
-		 */
-		// write code
+		
 		driver.manage().window().setSize(new Dimension(640, 480));
 		sleep(2);
 		
-		/*
-		 * Double window size manually to 1280x960 and wait 2 second.		 
-		 */
-		// write code
+		
 		
 		driver.manage().window().setSize(new Dimension(1280, 960));
 		sleep(2);
